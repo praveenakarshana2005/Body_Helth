@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController" prefWidth="500" prefHeight="300">
+    <VBox spacing="10" layoutX="10" layoutY="10">
+        <Label fx:id="lblWelcome" text="Welcome"/>
+        <Button text="Record Health" onAction="#openHealth"/>
+    </VBox>
+</AnchorPane>
